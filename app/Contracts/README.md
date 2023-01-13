@@ -9,3 +9,7 @@
 - receive() : In order to receive Ether transfer
 - msg.sender : address of the personne who sended the eth
 - msg.value : the amount of Wei sended on the smart contract
+
+## Mapping 
+### 3_MyMapping.sol
+
