@@ -11,7 +11,7 @@ pragma solidity >=0.7.0 <0.9.0;
 
     uint integer ; bool boolean ; address myAddress ;
 
-
+    
     function getInteger() public view returns(uint) { // geter
         return integer ;
     }

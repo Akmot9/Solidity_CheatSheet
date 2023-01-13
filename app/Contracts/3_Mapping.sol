@@ -12,6 +12,7 @@ pragma solidity >=0.7.0 <0.9.0;
 
     function getBalance(address _myAddress) public view returns(uint) {
         return Balances[_myAddress] ;
+        
 
     }
 

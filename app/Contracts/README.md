@@ -12,7 +12,7 @@
 
 ## Mapping 
 ### 3_MyMapping.sol
-- Les mappings ressemblent énormément aux tableaux (arrays). Seulement qu'on ne peut pas les parcourir (itérer avec une boucle). Dans un mapping, l'objectif est de faire correspondre un type de données avec un autre type de données.
+- Mappings looks like arrays. Only that they cannot be browsed (iterate with a loop). In a mapping, the objective is to match a data type with another data type
 
 ## Structs
 ### 4_Structs.sol
