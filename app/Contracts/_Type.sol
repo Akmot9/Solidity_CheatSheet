@@ -6,16 +6,25 @@ pragma solidity >=0.7.0 <0.9.0;
  * @custom:dev-run-script ./scripts/deploy_with_ethers.ts
  */
 
+
  contract Type {
 
-    uint number ;
+    uint integer ; bool boolean ;
 
-    function getNumber() public view returns(uint) { // geter
-        return number ;
+    function getInteger() public view returns(uint) { // geter
+        return integer ;
     }
 
-    function setNumber(uint _number) public {
-        number = _number ;
+    function setInteger(uint _integer) public { // seter
+        integer = _integer ;
+    }
+
+    function getBoolean() public view returns(bool) {
+        return boolean ;
+    }
+
+    function setBoolean(bool _boolean) public {
+        boolean = _boolean ;
     }
 
  }
