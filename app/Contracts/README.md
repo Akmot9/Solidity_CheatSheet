@@ -13,3 +13,7 @@
 ## Mapping 
 ### 3_MyMapping.sol
 - Les mappings ressemblent énormément aux tableaux (arrays). Seulement qu'on ne peut pas les parcourir (itérer avec une boucle). Dans un mapping, l'objectif est de faire correspondre un type de données avec un autre type de données.
+
+## Structs
+### 4_Structs.sol
+- Les structures sont comme des objets en Solidity. Ils nous permettent de créer nos propres structures. Un structure peut être composée de plusieurs variables de différents types.
