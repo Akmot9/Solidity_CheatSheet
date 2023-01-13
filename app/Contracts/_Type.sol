@@ -9,15 +9,17 @@ pragma solidity >=0.7.0 <0.9.0;
 
  contract Type {
 
-    uint integer ; bool boolean ;
+    uint integer ; bool boolean ; address myAddress ;
+
 
     function getInteger() public view returns(uint) { // geter
         return integer ;
     }
 
-    function setInteger(uint _integer) public { // seter
+    function setInteger(uint _integer) public {
         integer = _integer ;
     }
+
 
     function getBoolean() public view returns(bool) {
         return boolean ;
@@ -25,6 +27,15 @@ pragma solidity >=0.7.0 <0.9.0;
 
     function setBoolean(bool _boolean) public {
         boolean = _boolean ;
+    }
+
+
+    function getAddress() public view returns(address) {
+        return myAddress ;
+    }
+
+    function setAddress(address _myAddress) public {
+        myAddress = _myAddress ;
     }
 
  }
